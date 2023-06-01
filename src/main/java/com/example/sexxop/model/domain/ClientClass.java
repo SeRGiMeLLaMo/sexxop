@@ -3,6 +3,9 @@ package com.example.sexxop.model.domain;
 import java.util.Date;
 import java.util.Objects;
 
+/**
+ * Clase que representa un cliente
+ */
 public class ClientClass {
     private int id;
     private String name;
@@ -21,6 +24,13 @@ public class ClientClass {
         this.password_login = password_login;
     }
 
+    /**
+     * Constructor de la clase
+     * @param nombre
+     * @param fecha
+     * @param usuario
+     * @param contrasena
+     */
     public ClientClass(String nombre, Date fecha, String usuario, String contrasena) {
         this.name = name;
         this.birthday = birthday;
